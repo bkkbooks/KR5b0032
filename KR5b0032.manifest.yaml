@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5b0032/v1
+canonical_location: https://kanripo.org/bkk/KR5b0032/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 太上玄一真人說勸誡法輪妙經
+  identifiers:
+    alt_id:
+    - DZ0348
+  date: '2015-08-28 23:47:45.288688'
+  source:
+    repository: kanripo
+    path: KR5b0032
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0032_000.yaml, hash: 'sha256:f4cc8dd3a7b908f64a855ae0251fe53b727287635daac93dbd1f707add55e144'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0032_000.markers.yaml, hash: 'sha256:4a2b4a904c8f0758191badc84b09c44f44e1243ee5d59f27ea9a408841996093'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0032_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 783
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:b060515ae8537d5daa179de7b63b0f3524061a21eb919d8a52555d53415b85bb
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
